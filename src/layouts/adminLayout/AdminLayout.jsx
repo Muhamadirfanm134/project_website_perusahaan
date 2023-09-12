@@ -16,7 +16,7 @@ import FooterComponent from './footerComponent/FooterComponent'
 
 const AdminLayout = () => {
 	const navigate = useNavigate()
-	const path = window.location.pathname;
+	const path = window.location.pathname
 	const [open, setOpen] = useState(false)
 	const { themeName, setThemeName } = useTheme()
 	const [collapsed, setCollapsed] = useState(false)
@@ -101,7 +101,7 @@ const AdminLayout = () => {
 					<img src={collapsed ? MNSquare : LogoWhite} alt="footer-logo" className="mn-logo" />
 					<DividerComponent gap={10} />
 				</div>
-				<Menu mode="inline" items={SIDER_MENU} />
+				<Menu mode="inline" items={SIDER_MENU} selectedKeys={path} />
 			</Sider>
 			<Layout style={{ marginLeft: collapsed ? 80 : 256 }}>
 				<Header className={colorChange ? 'header2-style color2-change' : 'header2-style'}>
@@ -128,6 +128,7 @@ const AdminLayout = () => {
 				<Content
 					style={{
 						margin: '0 16px',
+						padding: 10,
 					}}
 				>
 					<Suspense fallback={<LoadingComponent />}>

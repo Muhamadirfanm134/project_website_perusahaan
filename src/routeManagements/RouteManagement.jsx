@@ -5,6 +5,8 @@ import AdminLayout from 'src/layouts/adminLayout/AdminLayout'
 import DefaultLayout from 'src/layouts/defaultLayout/DefaultLayout'
 import UserLayout from 'src/layouts/userLayout/UserLayout'
 import AdminPage from 'src/pages/adminPage/AdminPage'
+import AcademyCategory from 'src/pages/adminPage/academy/academyCategory/AcademyCategory'
+import AcademyManagement from 'src/pages/adminPage/academy/academyManagement/AcademyManagement'
 import AuthPage from 'src/pages/authPage/AuthPage'
 import MediaPage from 'src/pages/mediaPage/MediaPage'
 import AcademyPage from 'src/pages/userPage/academy/AcademyPage'
@@ -29,7 +31,9 @@ const RouteManagement = () => {
 			</Route>
 
 			<Route element={<AdminLayout />}>
-				<Route path="admin/dashboard" element={<AdminPage />} />
+				<Route path="dashboard-admin" element={<AdminPage />} />
+				<Route path="academy-management" element={<AcademyManagement />} />
+				<Route path="academy-category" element={<AcademyCategory />} />
 			</Route>
 
 			<Route element={<UserLayout />}>

@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
 	const login = async (data) => {
 		setUser(data)
 		if (data.isAdmin) {
-			navigate('/admin', { replace: true })
+			navigate('/dashboard-admin', { replace: true })
 		} else {
 			navigate('/home-page', { replace: true })
 		}

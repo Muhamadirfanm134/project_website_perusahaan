@@ -67,9 +67,9 @@ export const USER_MENU_DATA = [
 ]
 
 export const SIDER_MENU = [
-	getItem(<Link to={`admin`}>Dashboard</Link>, 'admin', <DashboardOutlined />),
+	getItem(<Link to={`dashboard-admin`}>Dashboard</Link>, '/dashboard-admin', <DashboardOutlined />),
 	getItem('Academy', 'academy', <RadarChartOutlined />, [
-		getItem('Academy Management', 'academy-management'),
-		getItem('Academy Category', 'academy-category'),
+		getItem(<Link to={`academy-management`}>Academy Management</Link>, '/academy-management'),
+		getItem(<Link to={`academy-category`}>Academy Category</Link>, '/academy-category'),
 	]),
 ]
