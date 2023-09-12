@@ -35,7 +35,7 @@ const DefaultLayout = () => {
 	}
 
 	if (user) {
-		return <Navigate to={user.isAdmin === true ? '/admin' : '/home-page'} replace />
+		return <Navigate to={user.isAdmin === true ? '/dashboard-admin' : '/home-page'} replace />
 	}
 
 	const items = [
