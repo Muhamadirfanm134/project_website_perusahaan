@@ -1,0 +1,11 @@
+.plain-card {
+	background-color: #00000000;
+	text-align: center;
+	border-color: #e7e7ec;
+	border-style: solid;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+}

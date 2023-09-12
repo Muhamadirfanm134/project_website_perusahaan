@@ -1,0 +1,104 @@
+.header-style {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	background-color: #ffffff00;
+	padding: 10px 400px;
+	height: 10vh;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header-style-blank {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	background-color: #ffffff00;
+	padding: 10px 100px;
+	height: 10vh;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.color-change {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	height: 10vh;
+}
+
+.mn-logo {
+	height: 60px;
+}
+
+.menu-style {
+	/* color: #333333; */
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.menu-style:hover {
+	color: #f7931f;
+}
+
+.coming-soon {
+	background-color: #f7931f;
+	/* padding: 0px 10px; */
+	border-radius: 10px;
+	height: 30px !important;
+}
+.content-style-blank,
+.content-style {
+	/* background-image: url('../../assets/img/bbblurry.svg');
+	background-size: contain;
+	background-repeat: no-repeat; */
+	min-height: 100vh;
+	margin-top: -90px !important;
+	padding: 110px;
+}
+
+.footer-style {
+	background-color: #333333;
+	color: #fff;
+	/* text-align: center; */
+	padding: 30px 400px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.icon {
+	vertical-align: middle !important;
+}
+
+@media only screen and (max-width: 1082px) {
+	.header-style {
+		padding: 10px 25px;
+	}
+
+	.footer-style {
+		padding: 30px 25px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.content-style {
+		padding: 30px;
+		padding-top: 10vh;
+	}
+
+	.content-style-blank {
+		padding: 10px;
+		padding-top: 10vh;
+	}
+
+	.header-style,
+	.header-style-blank {
+		padding: 10px 25px;
+	}
+}

@@ -1,0 +1,20 @@
+.plainCard {
+	background-color: '#FFFFff';
+	border-radius: 20px;
+	border-color: #e7e7ec;
+	border-style: solid;
+	color: #333333;
+	margin-bottom: 25px;
+	margin-top: 0px;
+	padding: 30px;
+	transition: transform 500ms;
+	cursor: pointer;
+	/* text-align: center; */
+}
+
+.plainCard:hover {
+	transform: translateY(-7px);
+	box-shadow: rgba(0, 0, 0, 0.095) 0px 7px 25px 0px;
+	border-color: #e7e7ec;
+	border-style: solid;
+}

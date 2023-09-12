@@ -1,0 +1,74 @@
+.half-bg {
+	background-image: url('../../assets/img/bg3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #196ecd;
+	height: 70vh;
+	margin: -15px -110px;
+	margin-bottom: 40px;
+	padding: 40px;
+	text-align: center;
+}
+.half-bg2 {
+	background-image: url('../../assets/img/bg3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #196ecd;
+	height: 25vh;
+	margin: -15px -110px;
+
+	padding: 40px 100px;
+}
+
+.glass-style {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.397);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	padding: 5px 20px;
+	width: 100%;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.sub-title {
+	font-size: 16px;
+	color: #8c98a4;
+}
+
+.news-thumb {
+	width: 200px;
+	border-radius: 10px;
+}
+
+.news-category {
+	color: #196ecd;
+	font-size: 12px;
+}
+
+.news-title {
+	font-size: 18px;
+	color: #333333;
+}
+
+.news-date {
+	color: #8c98a4;
+}
+
+.banner-style {
+	border-radius: 20px;
+}
+
+.anchor {
+	display: block;
+	height: 95px;
+	margin-top: -95px;
+	visibility: hidden;
+}
