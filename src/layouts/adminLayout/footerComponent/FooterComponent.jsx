@@ -13,14 +13,7 @@ const FooterComponent = () => {
 				<div>© 2023 MN Class. All rights reserved.</div>
 				<GapComponent height={20} />
 				<Space>
-					<Button
-						icon={<i className="bx bxl-linkedin" />}
-						shape="circle"
-						type="primary"
-						size="large"
-						href={'https://www.linkedin.com/company/mn-class'}
-						target="_blank"
-					/>
+					<Button icon={<i className="bx bxl-linkedin" />} shape="circle" type="primary" size="large" target="_blank" />
 					<Button
 						icon={<i className="bx bxs-envelope" />}
 						shape="circle"
@@ -34,17 +27,9 @@ const FooterComponent = () => {
 						shape="circle"
 						type="primary"
 						size="large"
-						href={'https://www.instagram.com/mn-class'}
 						target="_blank"
 					/>
-					<Button
-						icon={<i className="bx bxl-whatsapp" />}
-						shape="circle"
-						type="primary"
-						size="large"
-						href={'https://wa.me/6283871804117?&text=Hai%2C%20Admin%20MN%20Class.'}
-						target="_blank"
-					/>
+					<Button icon={<i className="bx bxl-whatsapp" />} shape="circle" type="primary" size="large" target="_blank" />
 				</Space>
 			</Col>
 			<Col xs={24} sm={24} md={24} lg={8} xl={8}>
