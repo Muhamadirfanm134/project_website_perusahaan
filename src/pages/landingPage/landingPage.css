@@ -72,3 +72,9 @@
 	margin-top: -95px;
 	visibility: hidden;
 }
+
+@media only screen and (max-width: 1082px) {
+	.half-bg {
+		height: 40vh;
+	}
+}

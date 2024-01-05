@@ -16,13 +16,15 @@ const LandingPage = () => {
 		<>
 			<span className="anchor" id="home" />
 			<div className="half-bg">
-				<Carousel autoplay>
-					{BANNER?.map((item, index) => (
-						<Row key={index} style={{ height: '160px' }} justify="center">
-							<img src={item.banner} alt={`banner-${index}`} className="banner-style" />
-						</Row>
-					))}
-				</Carousel>
+				<Row style={{ height: '160px' }} justify="center">
+					<Col xs={24} sm={12} md={12} lg={12} xl={14}>
+						<Carousel autoplay>
+							{BANNER?.map((item, index) => (
+								<img src={item.banner} alt={`banner-${index}`} className="banner-style" />
+							))}
+						</Carousel>
+					</Col>
+				</Row>
 			</div>
 
 			<span className="anchor" id="academy" />
